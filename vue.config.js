@@ -8,6 +8,6 @@ module.exports = defineConfig({
 })
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/Vue-Static-Beatstore-Preview/'
+    ? '/Vue_Static_Beatstore_Preview/'
     : '/'
 }

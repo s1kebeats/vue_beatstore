@@ -36,7 +36,8 @@ const beats = ref([
     audio: {
       mp3: `${publicPath}audio/Dang_KeyGlock_130BPM.mp3`,
       wav: `${publicPath}audio/Dang_KeyGlock_130BPM.mp3`,
-    }
+    },
+    date: 1,
   },
   {
     id: 1,
@@ -51,7 +52,8 @@ const beats = ref([
     audio: {
       mp3: `${publicPath}audio/OP_LilDurk_126BPM.mp3`,
       wav: `${publicPath}audio/OP_LilDurk_126BPM.mp3`,
-    }
+    },
+    date: 2,
   },
   {
     id: 2,
@@ -66,7 +68,8 @@ const beats = ref([
     audio: {
       mp3: `${publicPath}audio/SRT_ESTGee_155BPM.mp3`,
       wav: `${publicPath}audio/SRT_ESTGee_155BPM.mp3`,
-    }
+    },
+    date: 3,
   },
   {
     id: 3,
@@ -81,7 +84,8 @@ const beats = ref([
     audio: {
       mp3: `${publicPath}audio/KEY_LilTjay_132BPM.mp3`,
       wav: `${publicPath}audio/KEY_LilTjay_132BPM.mp3`,
-    }
+    },
+    date: 4,
   },
   {
     id: 4,
@@ -96,7 +100,8 @@ const beats = ref([
     audio: {
       mp3: `${publicPath}audio/Vibes_Drake_210BPM.mp3`,
       wav: `${publicPath}audio/Vibes_Drake_210BPM.mp3`,
-    }
+    },
+    date: 5,
   },
 ])
 </script>

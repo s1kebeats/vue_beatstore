@@ -6,6 +6,7 @@ const routes = [
     path: '',
     name: 'home',
     component: IndexView,
+    meta: { title: 'Home' }
   },
   {
     path: '/beats',
@@ -13,7 +14,8 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/BeatsView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/BeatsView.vue'),
+    meta: { title: 'Beats' }
   }
 ]
 
@@ -28,5 +30,10 @@ const router = createRouter({
   },
   routes
 })
+
+router.afterEach((to, from) => {
+  document.title = to.meta.title || 'S1ke Beatstore'
+})
+
 
 export default router
