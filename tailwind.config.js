@@ -8,10 +8,6 @@ module.exports = {
       '1200': {'max': '1200px'},
       '700': {'max': '700px'},
       '600': {'max': '600px'},
-      // '1680': '1680px',
-      // '1680': '1680px',
-      // '1680': '1680px',
-      // '1680': '1680px',
     }
   },
   daisyui: {
@@ -31,5 +27,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [require("daisyui"), require('tailwindcss-textshadow')],
+  plugins: [require("daisyui"), ],
 }
