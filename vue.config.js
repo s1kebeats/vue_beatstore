@@ -8,13 +8,6 @@ module.exports = defineConfig({
     config.plugins.delete("prefetch")
   },
 })
-
-module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue_beatstore/'
-    : '/'
-}
-
 module.exports = {
   configureWebpack: {
     devtool: 'source-map',
@@ -26,4 +19,9 @@ module.exports = {
       })
     ]
   }
+}
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/vue_beatstore/'
+    : '/'
 }
